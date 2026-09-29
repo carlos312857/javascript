@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contador Dinámico</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .contenedor {
+            background-color: white;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #333333;
+        }
+
+        #valor {
+            font-size: 50px;
+            margin: 20px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #btn-incrementar {
+            background-color: green;
+            color: white;
+        }
+
+        #btn-restar {
+            background-color: red;
+            color: white;
+        }
+
+        #btn-reset {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Contador Dinámico</h1>
+
+        <p>Mi contador es:</p>
+
+        <div id="valor">0</div>
+
+        <button id="btn-incrementar">
+            Sumar
+        </button>
+
+        <button id="btn-restar">
+            Restar
+        </button>
+
+        <button id="btn-reset">
+            Reiniciar
+        </button>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
